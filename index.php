@@ -20,11 +20,11 @@ use Telebot\Addons\Inline\Result, // Инлайн
 
 use RedBeanPHP\R;
 
-R::setup( 'mysql:host=127.0.0.1;dbname=resto2lr_cf',
-    'root', 'yMs5E33Qaqaq17cQ!');
+R::setup( 'mysql:host=127.0.0.1;dbname=',
+    '', '');
 
 $settings = array(
-    'api_token' => '785725588:AAFVqUgwSjmxzNpF94h_EJPt3sFKDLf8EX8',
+    'api_token' => '',
     'base_url' => 'https://api.telegram.org/',
     'use_proxy' => false,
     'hook reply' => true,
